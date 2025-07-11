@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { MapPin, Linkedin, Instagram, Facebook, Twitter } from "lucide-react";
+import Footer from "../components/Footer";
 
 function Contact() {
   return (
@@ -25,7 +26,7 @@ function Contact() {
 
       {/* Contact Form + Map */}
       <div className="max-w-[1200px] w-full mx-auto px-4 py-12">
-        <div className="relative rounded-3xl bg-green-200/60 p-6 md:p-10 lg:p-14 xl:p-16">
+        <div className="relative rounded-3xl bg-gradient-to-br from-green-200/70 via-white/60 to-indigo-200/60 backdrop-blur-xl p-6 md:p-10 lg:p-14 xl:p-16 shadow-2xl">
           <div className="grid md:grid-cols-2 gap-10 md:gap-14 xl:gap-20">
             {/* Form */}
             <div>
@@ -119,7 +120,7 @@ function Contact() {
       </div>
       {/* Social Media & Address Section */}
       <div className="max-w-[1200px] w-full mx-auto px-4 pb-12">
-        <div className="relative rounded-3xl bg-red-200/40 p-6 md:p-10 lg:p-14 xl:p-16 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="relative rounded-3xl bg-gradient-to-br from-pink-200/70 via-white/60 to-indigo-200/60 backdrop-blur-xl p-6 md:p-10 lg:p-14 xl:p-16 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
           {/* Address */}
           <div className="flex items-center gap-4 mb-6 md:mb-0">
             <MapPin className="w-8 h-8 text-red-500" />
@@ -153,9 +154,7 @@ function Contact() {
       </div>
 
       {/* Footer */}
-      <footer className="text-center text-black py-4 backdrop-blur-md bg-gray-300/40 border-t border-white/20">
-        © 2025 Alpha Groups. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }

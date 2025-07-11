@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -37,9 +38,7 @@ function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="text-center text-black py-4 backdrop-blur-md bg-gray-300/40 border-t border-white/20">
-        © 2025 Alpha Groups. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }

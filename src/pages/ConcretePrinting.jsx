@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function ConcretePrinting() {
   const [showModal, setShowModal] = useState(false);
@@ -64,11 +65,11 @@ function ConcretePrinting() {
           <div className="md:w-1/2 flex flex-col justify-center">
             <h2 className="text-3xl font-bold mb-4">Customized 3D Printing Villas</h2>
             <p className="text-lg mb-6">Design and build luxury, eco-friendly villas tailored to your unique needs and style. Our 3D concrete printing technology allows for rapid construction, creative architectural forms, and sustainable materials—making your dream home a reality faster than ever before.</p>
-            <a href="#enquire" className="inline-block mt-2 text-indigo-700 font-semibold underline underline-offset-4 hover:text-indigo-900 transition">Enquire Now</a>
+            <a href="#enquire" className="inline-block mt-2 text-indigo-700 font-semibold underline underline-offset-4 hover:text-indigo-900 transition">View Wok</a>
           </div>
           <div className="md:w-1/2 flex items-center justify-center relative min-h-[420px]">
-            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-indigo-200/60 rounded-[3rem] z-0"></div>
-            <img src="/src/assets/ImageConcretePrinting/IMG1.png" alt="Customized Villas" className="relative z-10 w-80 h-80 object-cover rounded-2xl shadow-xl" />
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-gradient-to-br from-indigo-200/70 via-white/60 to-pink-200/60 backdrop-blur-xl rounded-[3rem] z-0 shadow-2xl"></div>
+            <img src="/src/assets/ImageConcretePrinting/IMG1.png" alt="Customized Villas" className="relative z-10 w-80 h-80 object-cover rounded-3xl shadow-2xl border-4 border-white/60" />
           </div>
         </div>
 
@@ -77,11 +78,11 @@ function ConcretePrinting() {
           <div className="md:w-1/2 flex flex-col justify-center">
             <h2 className="text-3xl font-bold mb-4">Public Infrastructure</h2>
             <p className="text-lg mb-6">From smart benches and bus shelters to walls and urban art, our 3D concrete printing services enable the rapid creation of durable, innovative public infrastructure. We help cities and communities build smarter, greener, and more efficiently.</p>
-            <a href="#enquire" className="inline-block mt-2 text-pink-700 font-semibold underline underline-offset-4 hover:text-pink-900 transition">Enquire Now</a>
+            <a href="#enquire" className="inline-block mt-2 text-pink-700 font-semibold underline underline-offset-4 hover:text-pink-900 transition">View Work</a>
           </div>
           <div className="md:w-1/2 flex items-center justify-center relative min-h-[420px]">
-            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-pink-200/60 rounded-[3rem] z-0"></div>
-            <img src="/src/assets/ImageConcretePrinting/concretePrint.webp" alt="Public Infrastructure" className="relative z-10 w-80 h-80 object-cover rounded-2xl shadow-xl" />
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-gradient-to-br from-pink-200/70 via-white/60 to-indigo-200/60 backdrop-blur-xl rounded-[3rem] z-0 shadow-2xl"></div>
+            <img src="/src/assets/ImageConcretePrinting/concretePrint.webp" alt="Public Infrastructure" className="relative z-10 w-80 h-80 object-cover rounded-3xl shadow-2xl border-4 border-white/60" />
           </div>
         </div>
 
@@ -93,8 +94,8 @@ function ConcretePrinting() {
             <a href="#enquire" className="inline-block mt-2 text-green-700 font-semibold underline underline-offset-4 hover:text-green-900 transition">Collaborate</a>
           </div>
           <div className="md:w-1/2 flex items-center justify-center relative min-h-[420px]">
-            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-green-200/60 rounded-[3rem] z-0"></div>
-            <img src="/src/assets/ImageConcretePrinting/IMG1.png" alt="Research Collaboration" className="relative z-10 w-80 h-80 object-cover rounded-2xl shadow-xl" />
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-gradient-to-br from-green-200/70 via-white/60 to-indigo-200/60 backdrop-blur-xl rounded-[3rem] z-0 shadow-2xl"></div>
+            <img src="/src/assets/ImageConcretePrinting/IMG1.png" alt="Research Collaboration" className="relative z-10 w-80 h-80 object-cover rounded-3xl shadow-2xl border-4 border-white/60" />
           </div>
         </div>
       </div>
@@ -178,9 +179,7 @@ function ConcretePrinting() {
       )}
 
       {/* Footer */}
-      <footer className="text-center text-black py-4 backdrop-blur-md bg-gray-300/40 border-t border-white/30">
-        © 2025 Alpha Groups. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }

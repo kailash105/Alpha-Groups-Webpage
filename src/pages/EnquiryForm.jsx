@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from "../components/Footer";
 
 function EnquiryForm() {
   const [formData, setFormData] = useState({
@@ -32,8 +33,8 @@ function EnquiryForm() {
     <div className="min-h-screen bg-gradient-to-b from-white to-white flex flex-col">
       <Navbar />
 
-      <div className="max-w-xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-center text-black mb-8">Book A Demo</h1>
+      <div className="max-w-xl mx-auto p-6 bg-gradient-to-br from-indigo-200/70 via-white/60 to-pink-200/60 backdrop-blur-xl rounded-3xl shadow-2xl mt-12">
+        <h1 className="text-4xl font-bold text-center text-indigo-800 mb-8 drop-shadow">Book A Demo</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
           <input
             type="text"
@@ -99,9 +100,7 @@ function EnquiryForm() {
 
       <ToastContainer />
       
-      <footer className="text-center text-black py-4 backdrop-blur-lg bg-gray-300/40 border-t border-white/30">
-  © 2025 Alpha Groups. All rights reserved.
-</footer>
+      <Footer />
     </div>
   );
 }
