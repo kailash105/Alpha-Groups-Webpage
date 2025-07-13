@@ -34,13 +34,16 @@ function ConcretePrinting() {
 
       {/* Hero Section */}
       <div className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('src/assets/ImageConcretePrinting/concretePrint.webp')" }}
-        >
-          <div className="absolute inset-0 bg-black/50"></div>
-        </div>
-        <div className="relative z-10 text-white px-6">
+        <video
+          className="absolute inset-0 w-full h-full object-cover z-0"
+          src="/src/assets/ImageConcretePrinting/D_Printer_House_Video_Ready.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+        <div className="absolute inset-0 bg-black/50 z-10"></div>
+        <div className="relative z-20 text-white px-6">
           <h1 className="text-5xl font-bold mb-6 drop-shadow-lg">3D Concrete Printing</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Experience the future of construction with Alpha Groups' fully automated 3D Concrete Printing solutions.

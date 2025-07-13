@@ -8,6 +8,7 @@ import EnquiryForm from "./pages/EnquiryForm";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Thanks from "./pages/Thanks";
+import InteriorDesign from "./pages/InteriorDesign";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/thank-you" element={<Thanks />} />
+        <Route path="/interior-designing" element={<InteriorDesign />} />
 
 
 
