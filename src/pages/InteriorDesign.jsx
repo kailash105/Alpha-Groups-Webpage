@@ -6,7 +6,6 @@ function InteriorDesign() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Navbar />
-
       {/* Hero Section */}
       <div className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden">
         <video
@@ -25,7 +24,6 @@ function InteriorDesign() {
           </p>
         </div>
       </div>
-
       {/* About Interior Design */}
       <div className="max-w-7xl mx-auto w-full px-2 py-16">
         <h2 className="text-4xl font-bold mb-4 text-indigo-800 drop-shadow">Our Approach</h2>
@@ -33,7 +31,6 @@ function InteriorDesign() {
           At Alpha Groups, our interior design services blend creativity, innovation, and functionality to craft inspiring environments. We tailor every project to your unique style and needs, ensuring a seamless journey from concept to completion. Our team specializes in residential, commercial, and bespoke interiors, delivering quality and elegance in every detail.
         </p>
       </div>
-
       {/* Featured Works */}
       <div className="flex flex-col gap-16 max-w-7xl mx-auto w-full px-2 pb-24">
         <div className="flex flex-col md:flex-row items-center md:items-stretch gap-16">
@@ -73,8 +70,6 @@ function InteriorDesign() {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
       <Footer />
     </div>
   );

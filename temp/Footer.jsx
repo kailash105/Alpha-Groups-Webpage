@@ -21,6 +21,8 @@ const Footer = () => (
         <h3 className="font-bold text-lg mb-3">Services</h3>
         <ul className="space-y-2">
           <li><Link to="/interior-designing" className="hover:underline">Interior Design</Link></li>
+          <li><Link to="/construction" className="hover:underline">Construction</Link></li>
+          <li><Link to="/concrete-printing" className="hover:underline">3D Concrete Printing</Link></li>
         </ul>
       </div>
       {/* Company */}

@@ -45,14 +45,14 @@ function About() {
         </div>
         <div className="relative z-10 text-white px-6">
           <h1 className="text-5xl font-extrabold mb-4 drop-shadow-lg">About Us</h1>
-          <p className="text-xl text-gray-200 max-w-2xl mx-auto mb-2 font-medium drop-shadow-lg">Transforming spaces with creativity, passion, and a client-first approach.</p>
+          <p className="text-xl text-gray-200 max-w-2xl mx-auto mb-2 font-medium drop-shadow-lg">Building the future with innovation, quality, and sustainability at the core.</p>
         </div>
       </div>
       {/* About Us Headline and Paragraph */}
       <div className="max-w-7xl mx-auto w-full px-2 py-16">
         <h2 className="text-4xl font-bold mb-4 text-indigo-800 drop-shadow">About Us</h2>
         <p className="text-lg text-gray-700 font-medium mb-6">
-          Alpha Groups is a forward-thinking interior design company dedicated to creating inspiring, functional, and beautiful spaces. Our team blends creativity with expertise to deliver personalized solutions that reflect each client’s unique style and needs. We believe in the power of thoughtful design to enhance everyday living and work environments, and we are committed to exceeding expectations through innovation, attention to detail, and a passion for excellence.
+          Alpha Groups is a dynamic and innovation-driven company specializing in advanced construction solutions and 3D concrete printing technology. With a strong focus on quality, precision, and sustainability, we aim to revolutionize traditional construction practices by integrating modern digital fabrication techniques. Our services cater to diverse infrastructure needs, offering customized, efficient, and cost-effective solutions for both residential and commercial projects. At Alpha Groups, we are committed to shaping smarter, faster, and greener construction experiences for a better tomorrow.
         </p>
       </div>
       {/* Alternating Sections */}
@@ -61,7 +61,7 @@ function About() {
         <div className="flex flex-col md:flex-row items-center md:items-stretch gap-16">
           <div className="md:w-1/2 flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-4 text-indigo-800">Our Story</h2>
-            <p className="text-lg mb-6 text-gray-700 font-medium">Founded in 2020, Alpha Groups began with a vision to transform interiors and elevate everyday experiences. Over the years, we have grown into a trusted partner for clients seeking innovative, elegant, and practical design solutions for homes and businesses alike.</p>
+            <p className="text-lg mb-6 text-gray-700 font-medium">Founded in 2020, Alpha Groups set out to revolutionize infrastructure with cutting-edge construction, interior design and 3D concrete printing technologies. Today, we handle projects of all scales, blending creativity and precision engineering.</p>
           </div>
           <div className="md:w-1/2 flex items-center justify-center relative min-h-[420px]">
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-gradient-to-br from-indigo-200/70 via-white/60 to-pink-200/60 backdrop-blur-xl rounded-[3rem] z-0 shadow-2xl"></div>
@@ -72,7 +72,7 @@ function About() {
         <div className="flex flex-col md:flex-row-reverse items-center md:items-stretch gap-16">
           <div className="md:w-1/2 flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-4 text-pink-700">Our Mission</h2>
-            <p className="text-lg mb-6 text-gray-700 font-medium">To enrich lives by designing interiors that inspire, comfort, and function beautifully. We strive to deliver exceptional value and creativity, making every space a true reflection of its owner’s personality and aspirations.</p>
+            <p className="text-lg mb-6 text-gray-700 font-medium">To reshape the construction and design industry by offering smarter, sustainable, and scalable solutions that minimize waste, enhance efficiency, and bring futuristic spaces to life.</p>
           </div>
           <div className="md:w-1/2 flex items-center justify-center relative min-h-[420px]">
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-gradient-to-br from-pink-200/70 via-white/60 to-indigo-200/60 backdrop-blur-xl rounded-[3rem] z-0 shadow-2xl"></div>
@@ -83,7 +83,7 @@ function About() {
         <div className="flex flex-col md:flex-row items-center md:items-stretch gap-16">
           <div className="md:w-1/2 flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-4 text-green-700">Why Choose Us?</h2>
-            <p className="text-lg mb-6 text-gray-700 font-medium">We combine artistic vision with practical expertise, ensuring every project is both beautiful and livable. Our client-centric approach, transparent process, and commitment to quality set us apart as leaders in interior design.</p>
+            <p className="text-lg mb-6 text-gray-700 font-medium">We merge traditional craftsmanship with automation, AI-driven 3D printing, and modern design thinking. Our projects emphasize eco-friendly materials, faster delivery, and customized client experiences — giving your structures a future-ready edge.</p>
           </div>
           <div className="md:w-1/2 flex items-center justify-center relative min-h-[420px]">
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-gradient-to-br from-green-200/70 via-white/60 to-indigo-200/60 backdrop-blur-xl rounded-[3rem] z-0 shadow-2xl"></div>

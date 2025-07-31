@@ -27,6 +27,8 @@ function Navbar() {
 
   const servicesLinks = [
     { to: "/interior-designing", label: "Interior Designs" },
+    { to: "/services#construction", label: "Construction" },
+    { to: "/concrete-printing", label: "3D Concrete Printing" },
   ];
 
   return (
